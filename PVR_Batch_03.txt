@@ -1,0 +1,728 @@
+*Students : 
+*Students : 
+*Students : 
+---------------------------------------------------------------------------------------------------------
+Anil
+Karthik 
+Prashanth Bolla  
+Started on May 4th.
+---------------------------------------------------------------------------------------------------------
+*****************
+*****************
+*****************
+Youtube Links :
+Youtube Links :
+Youtube Links :
+*****************
+*****************
+*****************
+	VMWare & Ubuntu Installation :
+		https://www.youtube.com/watch?v=QkJmahizwO4
+	
+	Boot2Docker Installation on Windows :
+		https://www.youtube.com/watch?v=TjMU3bDX4vo
+		
+	Amazon Web Services :
+		https://qwiklabs.com/searches/lab?keywords=introduction
+		Introduction to AWS : https://www.youtube.com/watch?v=CaJCmoGIW24
+	
+	Linux / Unix Commands Info :
+		http://www.ee.surrey.ac.uk/Teaching/Unix/unix1.html
+	
+	
+---------------------------------------------------------------------------------------------------------
+- DevOps : PVR - Batch 03 : Started on May 4th 2016 
+---------------------------------------------------------------------------------------------------------
+SCM Tools 	: SVN / GIT / TFS Intro
+CI 			: Jenkins; Team City.
+Build Tools : ANT / MAVEN / GRADLE.
+Code Quality: SonarQube
+Linux / Unix:  Remote Windows Server / Installing Packages , Commands
+Docker  	: 
+Puppet 		: Basics / Hands On 
+Chef 		: Basics / Hands On 
+RunDeck 	: Intro / Hands On 
+Kubernetes 	: Intro / Hands On
+Deployments : Manual / Automated - 
+Ticketing Tools : JIRA / Service Now / Remedy.
+AWS 	 		: 
+Log Monitoring Tools :
+
+Operations 		: Servers / CPU Usage / 
+
+---------------------------------------------------------------------------------------------------------
+May 5th : 2nd Class : 2nd Demo : Topics discussed : CI Process etc.,
+Also uploaded videos of tools installation - 2 videos.
+---------------------------------------------------------------------------------------------------------
+May 6th : 
+---------------------------------------------------------------------------------------------------------
+LAN : All your company inside computers will be connected by Local Area Network.
+
+Open Source : Free to download and use - git , tomcat, skype, artifactory , Nexus, Docker, Jenkins 
+Proprietary : Nexus Pro, Artifactory Pro; Cloudbees Jenkins, MS Ofice.
+	Licenses : Annually, Lifetime - Managment deals with the purchases.
+
+FLOSS is the acronym for Free/Libre Open-Source Software. 
+FLOSS software is different from proprietary or commercial software because it is:
+	• FREE to use
+	• FREE to share, and
+	• FREE to develop
+
+Softwares : Coding, Testing, Deploying - Application Life Cycle.
+	Windows Softwares / Mobile Softwares.
+	Digitalized - IPhone : Android : 
+Hardwares : Provision, Virtualize, Intial Set up - Installing required OS, softwares, VM , Hypervisor.
+
+Personal Computer : Laptop, Notepads, Ipads, Mobiles.
+	Processor, RAM, Memory, Disk Space(Storage), OS, Machine Name, HostName(Linux/ Unix).
+	Hostname will be associated with an IP Address.
+	www.google.com -> www.ipaddress.com - DNS - Domain Name Service.
+	
+Windows  - Graphical User Interface(GUI)- 10 GB , 20 GB for OS - Consumes some memory, power, cpu etc., - 20 %
+Linux / Unix - CLI - Command Line Interface - Faster than windows, Secure. 
+Mac OS   - Graphical User Interface - faster.
+
+Windows : BIOS - Installed Operating System.
+	The BIOS is a first software run by the computer, when the system is turned On. This software is usually stored in the Read Only Memory (ROM).
+	OS Installed on Top of Hardware.
+	Softwares - Applications installed on top of your OS.
+	OS will be the communication layer between hardware and software.
+	Explaining about Windows Properties.
+		Task manager - CPU , Memory , Disk 
+		Respource Monitoring 
+		Perfmon.exe 
+		
+	Remote DeskTop Connection - Hostname or Computer Name , UserName, Password.
+	
+	Connecting to VPN : Hardware RSA Token or Software Token or Email / Phone verification.
+	
+------------------------------------------------------------------------	
+Linux / Unix - Putty.exe or Super Putty or Putty CM.
+	Hostname  or IP Address - Port Number : SSH : 22 
+	Telnet : 23 
+	RLogin : 513.
+	
+	
+------------------------------------------------------------------------	
+Continuous Integration : (CI)
+	Continuous Integration (CI) is a development practice that requires developers to integrate code into a shared repository several times a day. Each check-in is then verified by an automated build, allowing teams to detect problems early.
+	
+	Building (Compiling) the application for every set of changes and triggerign a build.
+	Dev -> Testing -> Production.
+
+	For every Application - you will see the functionalities - New funntioanlity to existing application.
+	
+	Shared Drive, Files over there - Whoever want to change - open the file, do the changes and save it.
+		file_v1.0.txt;
+		file_v1.1.txt;
+	
+	Central Repository - GIT, SVN, Clearcase.
+		Collaborate the Code / Files -> 
+	
+	Build - Compiling the code and getting an artifact.
+		.java(Byte Code) -> Servers wont understand Byte Code -> Compile using java javac compiler -> .class files.
+			.class are packaged together as jar file.
+			.class files + JSP's + servlets etc., -> war file.
+			ear - Enterprise Archive.
+--------------------------------------------------------------------------------
+**************************
+May 10th 2016 : 6 AM.
+**************************
+	
+	Try to install GIT, Tortoise GIT, Create a GitHub Account(www.github.com)
+
+	Different Languages usually the code will be written in ?
+		c, c++ = 5 - Gaming companies etc.,
+		java   = 70 = Most of the Companies are based on java. 
+		dotnet = 25 = Microsoft products are based on DotNet Stack.
+			Companies try to move to Java Stack - Open Source Tools - Faster - Better.
+		
+Different Folder Strucute of Java program ?	
+	src/main/com/companyname/.java etc.,
+--------------------------------------------------------------------------------
+20-25% Coding - Python, Shell , Ruby etc.,		
+======================================================================================================
+What is meant by SCM ? (Shared Repository)
+	Source Code : Code / Files - Developers Write.
+	Source Code Management 
+		software configuration management (SCM or S/W CM) is the task of tracking and controlling changes in the software, part of the larger cross-disciplinary field of configuration management. SCM practices include revision control and the establishment of baselines.
+		
+Different SCM Tools ? SVN, GIT, Clearcase.
+	Open Source ? - Free of Cost 
+	Proprietary ? - Pay for the software.
+	CVS - Centralized version control system.
+	DVCS - Distributed version control system.
+
+http : HyperText Trasnfer Protocol
+https : Secured HyperText Trasnfer Protocol : Username / password.
+ssh 	: Handshake  between servers , without password , Seamlessly iunteract with each other , Private Key, Public Key.
+
+GIT Administration ?
+Git Tools Usage ?
+Git Tools Installation ?
+
+Front End Tools ?
+	SourceTree ;
+	Tortoise GIT ? - 
+	
+How to create a Repo ? 
+	Manually ?
+	Using GitHub ? Git push ? Git Pull ?
+	Using GitLab ?
+	
+	Manually ?
+		C:\gitdummyrepositories\Graduation-Project
+		/c/gitdummyrepositories/Graduation-Project
+		
+	W 	= cut it into half
+	windows - starts with back slash \
+	linux / unix - starts with forward slash - /
+	
+	Once "git init" is executed - git repo is initiated.
+	Once you initiate a repo - master branch will be created by default.
+	
+	Repo : local : system : local repository.
+	
+	remote repository ?
+	
+	
+	
+	
+		
+======================================================================================================
+May 11th : Class Postponed.
+	Hands On - Git Pull & Push.
+	
+	Command Prompt - ACP  
+	Tortoise GIT   - ACP
+	
+	Local Repo 
+	Remote Repo 
+	
+	
+
+======================================================================================================
+Share a video regarding the Web Server & App Server.
+
+Using GitLab ?
+
+GIT Server / Clients Architecture ?
+	Branching ?
+	Tags ?
+======================================================================================================
+April 22nd 2016 : 7 AM - 
+	
+Jenkins - GIT Integration ?
+	Java - 
+	Web Application - Web Servers & Application Code
+		Web Servers - Apache Tomcat ; Jetty(Container)
+		
+	.pdf, txt, .doc, .xlsx etc., -80 Files -> Folder -> Zip File ->  
+	
+	Java - .jsp , .class , .java ,servlets, .css -> 
+	Types of packages - .war, .jar , .ear , .tar file etc.,
+		war - .class files, html pages, JSP,s Servlets 
+		
+	http:localhost:8080 - Jenkins.	
+	
+--------------------------------------------------------------------------------------------------------
+Manual Build - 10 Builds per Day = 1 Build - 2 Minutes 40 Seconds -> For 10 Builds -> 30 Minutes.
+	Go to one Build Server - 10 seconds 
+	Pull the Application Code from SCM (GIT , GitHub, SVN, Clearcase) - 1 Minute.
+	Set up the Variables like ANT HOME - JAVA HOME / MAVEN_HOME etc., - 30 seconds.
+	Run the ANT Build 	- 1 Minute.
+
+Compiling :	
+	Files - .java (Byte Code) -> Compile that byte code by using Compilers and it is convereted to Machine Code.
+	.class files -> package all .class files + jsp's , servlets, .css files - war file - Web Server.
+	.class files -> package all .class files + jsp's , servlets, .css files + EJB's - ear file - Application Server.
+	.tar file -> Linux / Unix Servers.
+	
+	Automate this Build Process - One time set up - 5 Minutes - 30 Seconds -> 10 Builds = 3 Minutes, Reduce the Build Times.
+	
+GO, Team City, Jenkins, Travis CI etc.,
+
+Difference between http and https ?
+----------------------------------------------------------------------
+Web Application Vs Application Server.
+
+JAR - Java Archive - group of .class files.
+WAR - Web Archive - Web Application Related Files - JSP's, Servlets, HTML, CSS, JS, XML - Altogether makes WAR File - represents one web app.
+		Copy war file in WebApps Folder - war file works - Represents 1 Web Application.
+		Easy delivery, Easy deployment.
+EAR - Enterprise Archive - Enterprise Application - Servlets, JSP's EJB's, JMS's
+
+JDK - Java Development Kit - To Develop & Run Java Application - On Developer Machine.
+	JDK = JRE + Development Tools.
+	
+JRE - Java Run Time Environment - Client Machine. (JVM + Library Classes)
+ JRE = JVM + Library Classes.
+  JVM is responsible to run the Application( Java Virtual Machine) - To Run Java Program Line by Line - JVM is the Interpreter.
+----------------------------------------------------------------------
+Linux / Unix Commands Info :
+	http://www.ee.surrey.ac.uk/Teaching/Unix/unix1.html
+----------------------------------------------------------------------
+Go through this video :
+	create a repo on your local;
+	create the folders
+	git init - initiating a repo.
+	add file,
+	modify file,
+	delete file.
+	
+	Tortoise GIT 
+	Source Tree 
+	Git Hub Account - create an account & remember the credentials.
+------------------------------------------------------------------------------
+April 5th 2016 :
+	Git Push ? to Remote Repo ?   
+	Above things Using Tortoise GIT -
+------------------------------------------------------------------------------
+April 7th : 7 PM :
+	Usage of Tortoise GIT,
+	GitHub Account creation, Adding Collaborators,
+	Asking the Users to Push to the Repo's from their laptops by using Tortoise GIT.
+------------------------------------------------------------------------------	
+April 8th : 7 PM.
+	Adding paths of softwares 	- covered.
+	Plugins 					- Covered.
+	Jenkins Administration		- Covered.
+	Configuration of Jobs 		- Covered.
+--------------------------------------------------------------------------------------------------
+
+	
+	https://github.com/masanobuimai/ant-sample-project.git
+--------------------------------------------------------------------------------------------------	
+April 9th : 12 PM :
+	Discussed about Sample Jenkins Job Config, Shell Executable, Sample Shell script, Installing Plugins.
+	
+-----------------------------------------------------------------------------------------------------------
+April 15th 2016 : 
+
+Virtual Machine :
+	In computing, a virtual machine (VM) is an emulation of a particular computer system. Virtual machines operate based on the computer architecture and functions of a real or hypothetical computer, and their implementations may involve specialized hardware, software, or a combination of both.
+	
+	On VM : You can install any kind of Operating System.
+		Server Name :
+		OS 			: Windows / Linux / Unix (Solaris) / Mac OS
+			(Versions of Linux -  RHEL - Red Hat Enterprise Linux / Ubuntu / Fedora / Cent OS etc.,)
+		Processor 	:  Inout / Output Speed 
+		
+		RAM 		: Random Access Memory - 
+		HardDisk 	: Storage Space
+		
+To use any Image (iso File) - You need to download 
+		Oracle VM Virtual Box - 
+		Vm Work Station.
+		
+	https://www.linux.com/learn/complete-beginners-guide-linux
+-------------------------------------------------------------------------------------------------------
+April 23rd 2016 :
+------------------
+------------------
+Operations :
+Operations :
+Operations :
+------------------
+------------------
+Software : Needs a  Hardware to Work : 
+
+Internet Connection (Service Provider) + Modem(LAN Wired Connection)-Desktops-Computers + Router(Wireless Connection)
+
+Browsers : Chrome, Opera, Mozilla Firefox, Intenet Explorer.
+Operating Systems : Windows, Linux / Unix (Solaris), Mac OS.
+Service Providers : TWC, AT&T, Verizon etc.,
+
+HTTP : Hyper Text Transfer Protocol
+HTPS : Secured Hyper Text Transfer Protocol : Sends all your data in Encrypted Version.
+		Websites will be secred.
+		Data wont be hacked by the hackers.
+		
+Intenet : Open web browser + URL or URI (Universal Resource Identififer / Universal Resource Locator)
+
+www.google.dom -> domain name.	
+	Every Server will have a server or HostName or Box ? ( IP Address)
+	www.ipaddress.com -> www.domainname.com -> www.google.com 
+	
+FIREWALL :
+	a part of a computer system or network that is designed to block unauthorized access while permitting outward communication.		
+	
+	http://www.jscape.com/blog/bid/89042/Considerations-When-Setting-Up-Your-DMZ-s-Reverse-Proxy-and-Firewall
+
+Single Firwall Architecture 
+Double Firewall Architecture 
+
+www.localhost:8080 
+www.localhost:4440
+
+Applications to talk to each other : Firewalls / Open Ports 
+
+Load Balancer Mechanism :
+	High Availability : 
+	https://www.youtube.com/watch?v=zHn2G71hoIk
+
+Update the Blog : Load Balancing + Firewall 
+
+http://www.jscape.com/blog/bid/89042/Considerations-When-Setting-Up-Your-DMZ-s-Reverse-Proxy-and-Firewall
+https://www.youtube.com/watch?v=zHn2G71hoIk
+High Availability - Youtube.
+
+------------------------------------------------------------------------------------------------------
+
+April 25th 2016 :
+------------------
+Windows 32 / 64 Bit .
+Different Flavors of Linux :
+Linux : Ubuntu / Cent OS / Fedora / Kubuntu / 
+
+Installing another OS : We need Virtual Machine.
+
+8 GB 
+Server(1 TB) -> Host OS(10GB-1GB) -> Virtual Box -> Ubuntu / Windows (Guest OS) - 3GB -1GB
+
+OS -> Ports / Device Management -> 
+OS : 10-15 GB 
+
+------------------------------------------------------------------------------------------------------
+April 26th 2016 :
+	Docker : 
+		Traditional Architecture : 
+		8 GB RAM ; 500 GB Hard Disk 9Storage)
+		1 Application - 1 GB ; 50 GB -Remaining resources getting wasted - 7GB; 450 GB.
+		
+			VMWARE : Guest OS -> Applications.
+			1 GB - 2nd Application ; 50 GB 
+			1 GB - 3rd Application ; 50 GB.
+			5 GB - 4th Application ; 350 GB.
+			
+		Docker is called as Light weight VM.(IT does not have Guest OS)
+		
+	Docker Engine - Containers anywhere.
+		
+		
+	How to Install Boot2 Docker on Windows :
+------------------------------------------------------------------------------------------------------
+April 27th 2016 :
+	Boot2Docker Login 
+	Docker Commands 
+	Pulling Image 
+	Listing out running containers.
+	Listing out running and containers and containers that are stopped.
+	
+	1 Image - you can create any number of containers.(Specific Container ID/ Name)
+	Start / Stop / Restart - 3-4 seconds.(Down Time for Application / Faster to start / Secure) 
+	VM - 2-3 5 mins.
+
+------------------------------------------------------------------------------------------------------
+April 28th 2016 :
+	Linux / Unix Commands & Usage.
+	
+April 12th : 7.45 PM to 8.45 PM.
+LINUX / UNIX Commands :
+ 
+ 
+1 3 3 3
+d rwx --- --- = 700 Directory.
+
+r - Read Permission  = 4
+w - Write Permission = 2 
+x - Execute Permission = 1
+
+ Any permission will be of 3 Digits : 000, 500, 777
+ d rwx r-x r-x = d755 
+ d rwx --- --- = d700
+ - rwx r-x --- = f750
+ 
+ Standard Permissions of D's/ F's.
+ Directories = 755
+ Files 		 = 754 or 644;
+ 
+ chmod xxx foldername
+ chmod x
+ xx filename
+ newgrp
+ chgrp
+ chown 
+  
+ sudo or Super User.
+ 
+ uname -a 
+ cp 
+ mv filename1 filename2;
+ mv filename foldername;
+ 
+ diff 
+ 
+ scp filename userid@server:/targetlocation
+ scp -r foldername userid@server:/targetlocation
+ 
+ UNIX LINKS : http://www.ee.surrey.ac.uk/Teaching/Unix/unix8.html
+ http://openclassroom.stanford.edu/MainFolder/VideoPage.php?course=PracticalUnix&video=intro-environment&speed=100	
+-----------------------------------------------------------------------------------------------------------
+April 29th 2016 :
+	Linux / Unix - In Depth Commands.
+	Sym Links or Symbolic Links :
+
+-----------------------------------------------------------------------------------------------------------
+May 4th  2016 :
+	SonarQube : 
+	
+	SonarQube : 
+	Code Quality Analysis Tool - Peer Code Review - 
+	Open Source software.
+	
+	Install Locally 7 need code quality analysis for a sample project.
+	& need to show on the dev server & Jenkins Job Config etc.,
+--------------------------------------------------------------------------------------------------
+ANT Builds 		: 
+MAVEN Builds 	: 
+GRADLE Builds 	: 
+--------------------------------------------------------------------------------------------------	
+-----------------------------------------------------------------------------------------------------------
+May 1st  2016 :
+	ANT - Another Neat Tool.
+ Uploaded Class, Discuss about ANT.
+	Discuss about ANT Builds.
+	Manual Builds.
+	Manual ANT Build 
+	Automated ANT Build using Jenkins.
+	
+Download ANT Software : https://ant.apache.org/bindownload.cgi
+	Advanced System Settings :
+	Variable Name 	: ANT_HOME 
+	Value 			: C:\softwares\apache-ant-1.9.6\bin
+	
+	JAVA_HOME
+	C:\Program Files\Java\jdk1.8.0_77\bin
+	
+	Path Variable : ";ANT_HOME;%JAVA_HOME%
+	
+	build.xml - all the application navigation 
+		what files 
+		directory structure 
+		tasks ?
+		components ?
+		base directories ?
+		tasks - depending on each other.
+		variables - 
+		
+		Property File.
+		For Dependency Resolving  - ANT uses Jar Files from the Library.
+		
+		Byte Code is Compiled to Machine Code - Compiler & Packaged the files as jar , war , ear, tar(Linux)
+		
+		zip - Windows.
+	
+	
+Manual Build :
+	Build Boxes - Pull the Code and We Compile Code - CI Server ; Jenkins Server.
+	Pull the Code  - 1 Minute.
+	Export ANT HOME - 3 Seconds 
+		export ANT_HOME="C:\softwares\apache-ant-1.9.6\bin"
+		export JAVA_HOME="C:\Program Files\Java\jdk1.8.0_77" - 3 Seconds.
+		export CLASSPATH= - 3 Seconds.
+		
+		ant -buildfile test.xml dist - 1 Minute.
+		ant -buildfile build-jenkins.xml
+		
+	Environment variable JAVA_HOME is set.
+	Environment variable ANT_HOME is set.
+	Environment variable CLASSPATH is set and contains at least one element from JAVA_HOME and at least one element from ANT_HOME.	
+		
+	Autoamted Build - 1 Minute - Jenkins Dashboard - few seconds.
+	Less Failures from the Build Standpoint - Less Manual Error.
+	
+	http://www.tutorialspoint.com/ant/ant_creating_war_files.htm
+	https://ant.apache.org/manual/tutorial-HelloWorldWithAnt.html
+	
+---------------------------------------------------------------------------------------------------	
+--------------------------------------------------------------------------------
+May 2nd 2016 : 
+MAVEN :
+	Maven is a Build Tool Similar to ANT, but it is advanced than ANT.
+	POM.xml - Project Object Model.
+	
+	libraries; lib - jar 
+	folder structure;  J2EE - create folder based on that ; Hibernate ; Spring - 
+	dependencies; ; Lib - jar ; 
+	modules.
+	
+	Maven has different goals to execute - 
+	maven will compile .java files(Byte Code) and convert them into machine code(.class) - jar (Pacakaged as a Jar) - Java Archive.
+
+	mvn -v 
+	mvn -version
+	
+	Repositories ?
+		Local - Maven will download all the required jar files / dependencies into your local repo.
+			cd ~
+			cd .m2/
+			ls -lrt
+			
+		Central : Maven Central repo : http://search.maven.org/
+		
+		Remote Repo : Nexus or Artifactory : Repository Management Tools - Dependency Resolving.
+			You will use Nex or Art instead of Maven Central Repo. 
+			
+		Nexus or Art - During the Builds - your Maven build will require dependent jar files, so it connects to Nexus or Art and the build will be success.
+			
+		After the Build : To Store the artifacts (ear, jar, war) which is output from the Build Process.
+			Different versions.
+			
+	mvn clean install
+	mvn clean
+	mvn package
+	mvn clean package
+	
+	;%M2_HOME%\bin;%MAVEN_HOME%\bin
+	
+	https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
+	https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html
+
+	http://www.mkyong.com/maven/how-to-install-maven-in-windows/
+	
+	Maven Projects : GAV 
+	G - Group ID  - company name 
+	A - Artifact ID - Application Name.
+	V - Version ID  - 1.0 or Snapshot, 2.0
+	
+	mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+-------------------------------------------------------------------------------------------------------	
+	$ cat pom.xml
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.mycompany.app</groupId>
+  <artifactId>my-app</artifactId>
+  <packaging>jar</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>my-app</name>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>
+-------------------------------------------------------------------------------------------------------
+KVenkat@KVENKATW7L2 MINGW64 /c/softwares/git/my-app
+$ mvn package
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building my-app 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ my-app ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\softwares\git\my-app\src\main\resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ my-app ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to C:\softwares\git\my-app\target\classes
+[INFO]
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ my-app ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\softwares\git\my-app\src\test\resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ my-app ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to C:\softwares\git\my-app\target\test-classes
+[INFO]
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ my-app ---
+[INFO] Surefire report directory: C:\softwares\git\my-app\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.mycompany.app.AppTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ my-app ---
+[INFO] Building jar: C:\softwares\git\my-app\target\my-app-1.0-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 21.756 s
+-------------------------------------------------------------------------------------------------------
+
+/c/Program\ Files/Java/jdk1.8.0_77/bin/jar 
+-----------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------
+
+	GRADLE : Build Tool : 
+		Dependency management.
+		Groovy 
+			Java Builds.
+	gradle task
+	gradle task1 task2
+		pick up that task and it will run all the dependent tasks.
+
+	build.gradle will be written in internal DSL(Groovy programming language.)
+	
+	
+	
+	Apply Plugin : java
+	
+	Source Sets : 
+		src/main
+		src/test
+		
+	jar {
+			}
+			
+	Dependencies & Configurations.
+	
+	
+	Compile : .java will be converted in .class -> Packaged into a jar file, ear , war - 
+		JSP's, Servlets, CSS etc., - war File -> Web Archive -> Web Server( Tomcat)
+		
+		ear - Enterprise Archive - Application Server. (WebLogic, WebSphere etc, JBOSS, GlassFish etc.,)
+		
+	gradle.properties
+
+		Gradle -> Project -> task or tasks.
+	gradle -v
+	gradle -q task
+	
+		
+	;%GRADLE_HOME%\bin	
+		
+	
+	Different Kinds of Packagaing : ear, war, jar , .tar , tar.gz, tar.tgz - 
+	
+	jar -xvf jarfilename
+	war -xvf warfilename
+	jar -xvf jarfilename
+	jar -cvf jarfilename
+	
+	tar -xvf tarfilename
+	gunzip tarfile.gz
+	
+	zip - compress all file and make the content as .zip -> Unzip or ExtractAll option.
+		
+--------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+Reverse Proxy 
+Forward Proxy 	
+Single Sign On 
+
+
+			
+	
